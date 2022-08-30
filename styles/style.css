@@ -1,0 +1,35 @@
+.title {
+  color: crimson;
+  text-align: center;
+  font-family: "Trebuchet MS", sans-serif;
+}
+body {
+  background: linear-gradient(white, rgb(95, 49, 49));
+}
+#image {
+  text-align: center;
+  mix-blend-mode: multiply;
+}
+
+.paragraph {
+  text-align: center;
+  list-style-position: inside;
+}
+
+.backbutton {
+  text-align: right;
+}
+
+.direction {
+  text-align: center;
+  font-family: "Trebuchet MS", sans-serif;
+}
+
+.instructions {
+}
+#steps {
+  font-weight: bold;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex: 1;
+}
