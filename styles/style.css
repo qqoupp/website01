@@ -1,17 +1,73 @@
-.alert-text {
-    color: rgb(255, 255, 255);
-    background-color: brown;   
+*{
+    box-sizing: border-box ;
+    font-family: 'Times New Roman', Times, serif;
 }
-.allign-middle {
+html, body{
+    margin: 0;
+    padding: 0;
+}
+.nav li{
+    display: inline;
+}
+.nav, ul{
+    margin: 0;
+}
+.nav a{
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+.nav a:hover{
+    background-color: rgba(255, 255, 255, .3);
+}
+.main-nav{
     text-align: center;
-    list-style-position: inside;
-}
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
 
-body{
-background-image: url("https://previews.123rf.com/images/gbh007/gbh0071607/gbh007160700074/59628936-lasagna.jpg");
-background-attachment: fixed;
-min-height: 500px;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
+}
+.main-nav li{
+    padding: 0 2%;
+}
+.main-header{
+    background-color: rgba(0, 0, 0, .2);
+    background-image: url("https://images.unsplash.com/photo-1506968430777-bf7784a87f23?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1742&q=80");
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 30px;
+}
+.page-name{
+    text-align: center;
+    margin: 0.1em;
+    font-size: 4em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: normal;
+    color: white;
+}
+.page-name-large{
+    font-size: 4em;
+}
+.content-section{
+    margin: 0.5em;
+}
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1em;
+}
+.section-header{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+    font-size: 2.5em;
+}
+.about-page-image{
+    float: left;
+    height: 250px;
+    width: 250px;
+    margin: 15px;
+    border-radius: 50%;
 }
